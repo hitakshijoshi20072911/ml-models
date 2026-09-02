@@ -1,0 +1,3 @@
+frame,timestamp_sec,model,label,class_id,confidence,x1,y1,x2,y2,center_x,center_y,bbox_width,bbox_height,image_width,image_height
+1,0.0,RAILWAY,defective,0,0.506095,12,4,212,419,112.0,211.5,200,415,423,422
+1,0.0,RUST,Corrosion,0,0.817244,207,36,415,419,311.0,227.5,208,383,423,422

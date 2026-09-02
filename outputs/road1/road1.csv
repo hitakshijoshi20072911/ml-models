@@ -1,0 +1,6 @@
+frame,timestamp_sec,model,label,class_id,confidence,x1,y1,x2,y2,center_x,center_y,bbox_width,bbox_height,image_width,image_height
+1,0.0,CRACK,crack,0,0.684039,0,251,112,321,56.0,286.0,112,70,638,480
+1,0.0,CRACK,crack,0,0.625516,363,202,637,263,500.0,232.5,274,61,638,480
+1,0.0,CRACK,crack,0,0.430073,1,90,98,102,49.5,96.0,97,12,638,480
+1,0.0,ROAD,Alligator Crack,2,0.851241,0,172,637,478,318.5,325.0,637,306,638,480
+1,0.0,ROAD,Potholes,3,0.66554,3,175,145,244,74.0,209.5,142,69,638,480

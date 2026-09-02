@@ -1,0 +1,10 @@
+{
+  "source": "C:\\ml models\\rust\\rust2.jpg",
+  "model_id": "corrosion-yolov8/4",
+  "confidence_threshold": 0.25,
+  "image_width": 627,
+  "image_height": 489,
+  "detection_count": 0,
+  "detections": [],
+  "api_latency_ms": 1389.89
+}

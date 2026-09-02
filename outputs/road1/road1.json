@@ -1,0 +1,172 @@
+{
+    "source": "C:\\ml models\\road1.jpg",
+    "input_type": "image",
+    "image": {
+        "width": 638,
+        "height": 480
+    },
+    "configuration": {
+        "confidence_threshold": 0.3,
+        "iou_threshold": 0.45,
+        "local_image_size": 1280,
+        "road_tiling": true,
+        "road_tile_size": 640,
+        "road_overlap": 0.2
+    },
+    "model_status": {
+        "CRACK": "success",
+        "ROAD": "success",
+        "RAILWAY": "success",
+        "RUST": "success"
+    },
+    "timings_ms": {
+        "CRACK": 6684.904599998845,
+        "ROAD": 286.76760001690127,
+        "RAILWAY": 2619.375800015405,
+        "RUST": 599.2145999916829
+    },
+    "total_inference_ms": 10192.39,
+    "detection_count": 5,
+    "detections": [
+        {
+            "model": "CRACK",
+            "label": "crack",
+            "class_id": 0,
+            "confidence": 0.684039,
+            "bounding_box": {
+                "x1": 0,
+                "y1": 251,
+                "x2": 112,
+                "y2": 321
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    0,
+                    251
+                ],
+                "bottom_right": [
+                    112,
+                    321
+                ]
+            },
+            "center": {
+                "x": 56.0,
+                "y": 286.0
+            },
+            "width": 112,
+            "height": 70
+        },
+        {
+            "model": "CRACK",
+            "label": "crack",
+            "class_id": 0,
+            "confidence": 0.625516,
+            "bounding_box": {
+                "x1": 363,
+                "y1": 202,
+                "x2": 637,
+                "y2": 263
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    363,
+                    202
+                ],
+                "bottom_right": [
+                    637,
+                    263
+                ]
+            },
+            "center": {
+                "x": 500.0,
+                "y": 232.5
+            },
+            "width": 274,
+            "height": 61
+        },
+        {
+            "model": "CRACK",
+            "label": "crack",
+            "class_id": 0,
+            "confidence": 0.430073,
+            "bounding_box": {
+                "x1": 1,
+                "y1": 90,
+                "x2": 98,
+                "y2": 102
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    1,
+                    90
+                ],
+                "bottom_right": [
+                    98,
+                    102
+                ]
+            },
+            "center": {
+                "x": 49.5,
+                "y": 96.0
+            },
+            "width": 97,
+            "height": 12
+        },
+        {
+            "model": "ROAD",
+            "label": "Alligator Crack",
+            "class_id": 2,
+            "confidence": 0.851241,
+            "bounding_box": {
+                "x1": 0,
+                "y1": 172,
+                "x2": 637,
+                "y2": 478
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    0,
+                    172
+                ],
+                "bottom_right": [
+                    637,
+                    478
+                ]
+            },
+            "center": {
+                "x": 318.5,
+                "y": 325.0
+            },
+            "width": 637,
+            "height": 306
+        },
+        {
+            "model": "ROAD",
+            "label": "Potholes",
+            "class_id": 3,
+            "confidence": 0.66554,
+            "bounding_box": {
+                "x1": 3,
+                "y1": 175,
+                "x2": 145,
+                "y2": 244
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    3,
+                    175
+                ],
+                "bottom_right": [
+                    145,
+                    244
+                ]
+            },
+            "center": {
+                "x": 74.0,
+                "y": 209.5
+            },
+            "width": 142,
+            "height": 69
+        }
+    ]
+}

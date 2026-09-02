@@ -1,0 +1,8 @@
+# DRIFT crack-model inference environment
+# The Kaggle run shown in the notebook used Ultralytics 8.4.35.
+# Pinning this version is the safest first choice for the supplied best.pt.
+
+ultralytics==8.4.35
+opencv-python>=4.10,<5
+numpy>=1.26,<3
+Pillow>=10,<12

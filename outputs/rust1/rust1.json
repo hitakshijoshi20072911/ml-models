@@ -1,0 +1,142 @@
+{
+    "source": "C:\\ml models\\rust1.jpg",
+    "input_type": "image",
+    "image": {
+        "width": 596,
+        "height": 335
+    },
+    "configuration": {
+        "confidence_threshold": 0.3,
+        "iou_threshold": 0.45,
+        "local_image_size": 640,
+        "road_tiling": false,
+        "road_tile_size": 640,
+        "road_overlap": 0.2
+    },
+    "model_status": {
+        "CRACK": "success",
+        "RAILWAY": "success",
+        "RUST": "success"
+    },
+    "timings_ms": {
+        "CRACK": 4410.834700014675,
+        "RAILWAY": 3975.5039000010584,
+        "RUST": 2001.1832999880426
+    },
+    "total_inference_ms": 10389.05,
+    "detection_count": 4,
+    "detections": [
+        {
+            "model": "CRACK",
+            "label": "crack",
+            "class_id": 0,
+            "confidence": 0.447219,
+            "bounding_box": {
+                "x1": 0,
+                "y1": 157,
+                "x2": 257,
+                "y2": 189
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    0,
+                    157
+                ],
+                "bottom_right": [
+                    257,
+                    189
+                ]
+            },
+            "center": {
+                "x": 128.5,
+                "y": 173.0
+            },
+            "width": 257,
+            "height": 32
+        },
+        {
+            "model": "RAILWAY",
+            "label": "defective",
+            "class_id": 0,
+            "confidence": 0.606404,
+            "bounding_box": {
+                "x1": 1,
+                "y1": 77,
+                "x2": 105,
+                "y2": 334
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    1,
+                    77
+                ],
+                "bottom_right": [
+                    105,
+                    334
+                ]
+            },
+            "center": {
+                "x": 53.0,
+                "y": 205.5
+            },
+            "width": 104,
+            "height": 257
+        },
+        {
+            "model": "RAILWAY",
+            "label": "defective",
+            "class_id": 0,
+            "confidence": 0.402886,
+            "bounding_box": {
+                "x1": 92,
+                "y1": 15,
+                "x2": 542,
+                "y2": 334
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    92,
+                    15
+                ],
+                "bottom_right": [
+                    542,
+                    334
+                ]
+            },
+            "center": {
+                "x": 317.0,
+                "y": 174.5
+            },
+            "width": 450,
+            "height": 319
+        },
+        {
+            "model": "RUST",
+            "label": "Corrosion",
+            "class_id": 0,
+            "confidence": 0.870868,
+            "bounding_box": {
+                "x1": 10,
+                "y1": 36,
+                "x2": 582,
+                "y2": 213
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    10,
+                    36
+                ],
+                "bottom_right": [
+                    582,
+                    213
+                ]
+            },
+            "center": {
+                "x": 296.0,
+                "y": 124.5
+            },
+            "width": 572,
+            "height": 177
+        }
+    ]
+}

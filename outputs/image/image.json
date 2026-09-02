@@ -1,0 +1,72 @@
+{
+    "source": "C:\\ml models\\image.png",
+    "input_type": "image",
+    "image": {
+        "width": 423,
+        "height": 422
+    },
+    "configuration": {
+        "confidence_threshold": 0.3,
+        "iou_threshold": 0.7,
+        "local_imgsz": 640
+    },
+    "detection_count": 2,
+    "detections": [
+        {
+            "model": "RAILWAY",
+            "label": "defective",
+            "class_id": 0,
+            "confidence": 0.506095,
+            "bounding_box": {
+                "x1": 12,
+                "y1": 4,
+                "x2": 212,
+                "y2": 419
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    12,
+                    4
+                ],
+                "bottom_right": [
+                    212,
+                    419
+                ]
+            },
+            "center": {
+                "x": 112.0,
+                "y": 211.5
+            },
+            "width": 200,
+            "height": 415
+        },
+        {
+            "model": "RUST",
+            "label": "Corrosion",
+            "class_id": 0,
+            "confidence": 0.817244,
+            "bounding_box": {
+                "x1": 207,
+                "y1": 36,
+                "x2": 415,
+                "y2": 419
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    207,
+                    36
+                ],
+                "bottom_right": [
+                    415,
+                    419
+                ]
+            },
+            "center": {
+                "x": 311.0,
+                "y": 227.5
+            },
+            "width": 208,
+            "height": 383
+        }
+    ]
+}

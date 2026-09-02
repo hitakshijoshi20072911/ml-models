@@ -1,0 +1,54 @@
+{
+    "source": "C:\\ml models\\road3.png",
+    "input_type": "image",
+    "image": {
+        "width": 1152,
+        "height": 762
+    },
+    "configuration": {
+        "confidence_threshold": 0.3,
+        "iou_threshold": 0.45,
+        "local_image_size": 640,
+        "road_tiling": false,
+        "road_tile_size": 640,
+        "road_overlap": 0.2
+    },
+    "model_status": {
+        "ROAD": "success"
+    },
+    "timings_ms": {
+        "ROAD": 3919.5956000185106
+    },
+    "total_inference_ms": 3948.24,
+    "detection_count": 1,
+    "detections": [
+        {
+            "model": "ROAD",
+            "label": "Alligator Crack",
+            "class_id": 2,
+            "confidence": 0.562143,
+            "bounding_box": {
+                "x1": 422,
+                "y1": 295,
+                "x2": 1131,
+                "y2": 720
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    422,
+                    295
+                ],
+                "bottom_right": [
+                    1131,
+                    720
+                ]
+            },
+            "center": {
+                "x": 776.5,
+                "y": 507.5
+            },
+            "width": 709,
+            "height": 425
+        }
+    ]
+}

@@ -1,0 +1,196 @@
+{
+    "source": "C:\\ml models\\road4.png",
+    "input_type": "image",
+    "image": {
+        "width": 591,
+        "height": 400
+    },
+    "configuration": {
+        "confidence_threshold": 0.3,
+        "iou_threshold": 0.45,
+        "local_image_size": 640,
+        "road_tiling": false,
+        "road_tile_size": 640,
+        "road_overlap": 0.2
+    },
+    "model_status": {
+        "CRACK": "success",
+        "ROAD": "success"
+    },
+    "timings_ms": {
+        "CRACK": 4591.24619999784,
+        "ROAD": 205.80749999498948
+    },
+    "total_inference_ms": 4798.45,
+    "detection_count": 6,
+    "detections": [
+        {
+            "model": "CRACK",
+            "label": "crack",
+            "class_id": 0,
+            "confidence": 0.620366,
+            "bounding_box": {
+                "x1": 182,
+                "y1": 209,
+                "x2": 289,
+                "y2": 229
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    182,
+                    209
+                ],
+                "bottom_right": [
+                    289,
+                    229
+                ]
+            },
+            "center": {
+                "x": 235.5,
+                "y": 219.0
+            },
+            "width": 107,
+            "height": 20
+        },
+        {
+            "model": "CRACK",
+            "label": "crack",
+            "class_id": 0,
+            "confidence": 0.482943,
+            "bounding_box": {
+                "x1": 171,
+                "y1": 125,
+                "x2": 335,
+                "y2": 152
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    171,
+                    125
+                ],
+                "bottom_right": [
+                    335,
+                    152
+                ]
+            },
+            "center": {
+                "x": 253.0,
+                "y": 138.5
+            },
+            "width": 164,
+            "height": 27
+        },
+        {
+            "model": "CRACK",
+            "label": "crack",
+            "class_id": 0,
+            "confidence": 0.424563,
+            "bounding_box": {
+                "x1": 260,
+                "y1": 185,
+                "x2": 586,
+                "y2": 201
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    260,
+                    185
+                ],
+                "bottom_right": [
+                    586,
+                    201
+                ]
+            },
+            "center": {
+                "x": 423.0,
+                "y": 193.0
+            },
+            "width": 326,
+            "height": 16
+        },
+        {
+            "model": "ROAD",
+            "label": "Potholes",
+            "class_id": 3,
+            "confidence": 0.534845,
+            "bounding_box": {
+                "x1": 165,
+                "y1": 121,
+                "x2": 341,
+                "y2": 160
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    165,
+                    121
+                ],
+                "bottom_right": [
+                    341,
+                    160
+                ]
+            },
+            "center": {
+                "x": 253.0,
+                "y": 140.5
+            },
+            "width": 176,
+            "height": 39
+        },
+        {
+            "model": "ROAD",
+            "label": "Potholes",
+            "class_id": 3,
+            "confidence": 0.49381,
+            "bounding_box": {
+                "x1": 202,
+                "y1": 87,
+                "x2": 264,
+                "y2": 112
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    202,
+                    87
+                ],
+                "bottom_right": [
+                    264,
+                    112
+                ]
+            },
+            "center": {
+                "x": 233.0,
+                "y": 99.5
+            },
+            "width": 62,
+            "height": 25
+        },
+        {
+            "model": "ROAD",
+            "label": "Potholes",
+            "class_id": 3,
+            "confidence": 0.455741,
+            "bounding_box": {
+                "x1": 178,
+                "y1": 205,
+                "x2": 291,
+                "y2": 233
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    178,
+                    205
+                ],
+                "bottom_right": [
+                    291,
+                    233
+                ]
+            },
+            "center": {
+                "x": 234.5,
+                "y": 219.0
+            },
+            "width": 113,
+            "height": 28
+        }
+    ]
+}

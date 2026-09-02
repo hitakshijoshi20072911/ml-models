@@ -1,0 +1,144 @@
+{
+    "source": "C:\\ml models\\road2.jpg",
+    "input_type": "image",
+    "image": {
+        "width": 1215,
+        "height": 682
+    },
+    "configuration": {
+        "confidence_threshold": 0.3,
+        "iou_threshold": 0.45,
+        "local_image_size": 640,
+        "road_tiling": true,
+        "road_tile_size": 640,
+        "road_overlap": 0.2
+    },
+    "model_status": {
+        "CRACK": "success",
+        "ROAD": "success",
+        "RAILWAY": "success",
+        "RUST": "success"
+    },
+    "timings_ms": {
+        "CRACK": 12896.263200003887,
+        "ROAD": 1274.0211999916937,
+        "RAILWAY": 11137.712600000668,
+        "RUST": 3975.772500009043
+    },
+    "total_inference_ms": 29321.35,
+    "detection_count": 4,
+    "detections": [
+        {
+            "model": "CRACK",
+            "label": "crack",
+            "class_id": 0,
+            "confidence": 0.356194,
+            "bounding_box": {
+                "x1": 1120,
+                "y1": 3,
+                "x2": 1172,
+                "y2": 190
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    1120,
+                    3
+                ],
+                "bottom_right": [
+                    1172,
+                    190
+                ]
+            },
+            "center": {
+                "x": 1146.0,
+                "y": 96.5
+            },
+            "width": 52,
+            "height": 187
+        },
+        {
+            "model": "ROAD",
+            "label": "Potholes",
+            "class_id": 3,
+            "confidence": 0.595886,
+            "bounding_box": {
+                "x1": 743,
+                "y1": 370,
+                "x2": 858,
+                "y2": 419
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    743,
+                    370
+                ],
+                "bottom_right": [
+                    858,
+                    419
+                ]
+            },
+            "center": {
+                "x": 800.5,
+                "y": 394.5
+            },
+            "width": 115,
+            "height": 49
+        },
+        {
+            "model": "ROAD",
+            "label": "Potholes",
+            "class_id": 3,
+            "confidence": 0.497006,
+            "bounding_box": {
+                "x1": 885,
+                "y1": 466,
+                "x2": 1134,
+                "y2": 593
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    885,
+                    466
+                ],
+                "bottom_right": [
+                    1134,
+                    593
+                ]
+            },
+            "center": {
+                "x": 1009.5,
+                "y": 529.5
+            },
+            "width": 249,
+            "height": 127
+        },
+        {
+            "model": "RAILWAY",
+            "label": "defective",
+            "class_id": 0,
+            "confidence": 0.462114,
+            "bounding_box": {
+                "x1": 34,
+                "y1": 2,
+                "x2": 1037,
+                "y2": 641
+            },
+            "pixel_coordinates": {
+                "top_left": [
+                    34,
+                    2
+                ],
+                "bottom_right": [
+                    1037,
+                    641
+                ]
+            },
+            "center": {
+                "x": 535.5,
+                "y": 321.5
+            },
+            "width": 1003,
+            "height": 639
+        }
+    ]
+}

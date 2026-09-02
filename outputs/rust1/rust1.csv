@@ -1,0 +1,5 @@
+frame,timestamp_sec,model,label,class_id,confidence,x1,y1,x2,y2,center_x,center_y,bbox_width,bbox_height,image_width,image_height
+1,0.0,CRACK,crack,0,0.447219,0,157,257,189,128.5,173.0,257,32,596,335
+1,0.0,RAILWAY,defective,0,0.606404,1,77,105,334,53.0,205.5,104,257,596,335
+1,0.0,RAILWAY,defective,0,0.402886,92,15,542,334,317.0,174.5,450,319,596,335
+1,0.0,RUST,Corrosion,0,0.870868,10,36,582,213,296.0,124.5,572,177,596,335

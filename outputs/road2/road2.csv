@@ -1,0 +1,5 @@
+frame,timestamp_sec,model,label,class_id,confidence,x1,y1,x2,y2,center_x,center_y,bbox_width,bbox_height,image_width,image_height
+1,0.0,CRACK,crack,0,0.356194,1120,3,1172,190,1146.0,96.5,52,187,1215,682
+1,0.0,ROAD,Potholes,3,0.595886,743,370,858,419,800.5,394.5,115,49,1215,682
+1,0.0,ROAD,Potholes,3,0.497006,885,466,1134,593,1009.5,529.5,249,127,1215,682
+1,0.0,RAILWAY,defective,0,0.462114,34,2,1037,641,535.5,321.5,1003,639,1215,682

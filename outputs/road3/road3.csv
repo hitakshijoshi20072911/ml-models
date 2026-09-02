@@ -1,0 +1,2 @@
+frame,timestamp_sec,model,label,class_id,confidence,x1,y1,x2,y2,center_x,center_y,bbox_width,bbox_height,image_width,image_height
+1,0.0,ROAD,Alligator Crack,2,0.562143,422,295,1131,720,776.5,507.5,709,425,1152,762
